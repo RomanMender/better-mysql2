@@ -10,9 +10,9 @@ npm i better-mysql2
 ## Example
 
 ~~~JS
-const  mysql = require("better-mysql2")
+const mysql = require("better-mysql2")
 
-var  db = new  mysql.database({
+var db = new mysql.database({
 "host":  "host",
 "user":  "user"
 "password":  "pass",
