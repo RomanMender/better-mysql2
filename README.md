@@ -13,10 +13,10 @@ npm i better-mysql2
 const mysql = require("better-mysql2")
 
 var db = new mysql.database({
-"host":  "host",
-"user":  "user"
-"password":  "pass",
-"database":  "database"
+	"host":  "host",
+	"user":  "user"
+	"password":  "pass",
+	"database":  "database"
 })
 
 var smth = db.prepare('SELECT * FROM Bans WHERE GamerTag = ?')
