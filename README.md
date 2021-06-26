@@ -4,7 +4,7 @@ A Simple mysql Wrapper for javascript, If you want request more features add a f
 
 ## Installation
 ```shell
-$ npm i better-mysql2
+npm i better-mysql2
 ```
 
 ## Example
