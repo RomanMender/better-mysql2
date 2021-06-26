@@ -1,4 +1,4 @@
-# better-mysql2
+# Better-Mysql2
 
 A Simple mysql Wrapper for javascript, If you want request more features add a feature request on [Github](https://github.com/RomanMender/better-mysql2).
 
