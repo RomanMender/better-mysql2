@@ -1,0 +1,21 @@
+{
+  "name": "better-mysql2",
+  "version": "1.0.0",
+  "description": "Async Mysql2",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node tests/connect"
+  },
+  "keywords": [
+    "mysql",
+    "mysql2",
+    "asyncmysql",
+    "async",
+    "mysql"
+  ],
+  "author": "RomanMender3164",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.2.5"
+  }
+}
