@@ -13,14 +13,12 @@ npm i better-mysql2
 const mysql = require("better-mysql2")
 
 var db = new mysql.database({
-	"host":  "host",
-	"user":  "user"
-	"password":  "pass",
-	"database":  "database"
+  "host":  "host",
+  "user":  "user"
+  "password":  "pass",
+  "database":  "database"
 })
 
-var smth = db.prepare('SELECT * FROM Bans WHERE GamerTag = ?')
-
-smth.get("romanmender3164")
-	.then(res  =>  console.log(res))
+const row = db.prepare('SELECT * FROM users WHERE id = ?').get(userId);
+console.log(row.firstName, row.lastName, row.email);
 ~~~
