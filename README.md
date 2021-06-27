@@ -22,3 +22,7 @@ var db = new mysql.database({
 const row = db.prepare('SELECT * FROM users WHERE id = ?').get(userId);
 console.log(row.firstName, row.lastName, row.email);
 ~~~
+
+## Documentation
+
+https://romanmender3164.gitbook.io/better-mysql2/
